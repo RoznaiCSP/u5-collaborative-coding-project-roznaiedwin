@@ -19,3 +19,4 @@ let mySprite = sprites.create(img`
     `, SpriteKind.Player)
 scene.setBackgroundColor(10)
 controller.moveSprite(mySprite)
+scene.cameraShake(4, 500)
