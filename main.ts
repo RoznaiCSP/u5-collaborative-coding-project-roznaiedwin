@@ -19,3 +19,4 @@ let mySprite = sprites.create(img`
     `, SpriteKind.Player)
 scene.setBackgroundColor(10)
 music.baDing.play()
+info.setScore(0)
