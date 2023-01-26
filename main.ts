@@ -20,3 +20,5 @@ let mySprite = sprites.create(img`
 scene.setBackgroundColor(10)
 music.baDing.play()
 info.setScore(0)
+controller.moveSprite(mySprite)
+scene.cameraShake(4, 500)
